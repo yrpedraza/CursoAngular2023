@@ -1,0 +1,22 @@
+.header {
+    width:100%;
+    background-color: antiquewhite;
+    border-bottom: solid 1px black;
+}
+.menu {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    list-style: none;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+}
+.logo {
+    height: 2rem; /* el rem duplica el doble del tamanno de la fuente que usamos para hacer nuestra aplicaion response*/
+}
+.menu li{/*dentro de la clase menu vamos a darle propiedades a los elementos li de la lista*/
+    font-weight: 600;
+    padding: .5rem;
+    text-align: center;
+}
